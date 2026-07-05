@@ -1,0 +1,20 @@
+Matrix Toolkit - Production Edition
+Build: 003
+Build Date: 05-07-2026
+Build ID: 20260705-003
+Status: Stable
+
+BUILD 003 - FULL WIFI MANAGER RESTORED
+
+Fixed:
+- Full WiFi Manager restored.
+- WiFi profiles are available again.
+- Matrix Default WiFi restore is available again.
+- Bad Gateway prevention is kept by sending Content-Type immediately.
+- Old v80 naming removed from the page title/header.
+- Clean deploy recovery retained.
+
+Admin Update:
+- Use Admin > Cloud Maintenance > Cloud Update & Repair.
+- This replaces the old GitHub Update button.
+- CLI equivalent: matrix-update.

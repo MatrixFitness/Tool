@@ -1,0 +1,25 @@
+CHANGELOG
+
+Production Edition - Build 003 - 05-07-2026
+------------------------------------------------------------
+FIXED
+- Restored full WiFi Manager functionality.
+- Restored WiFi profiles.
+- Restored Matrix Default WiFi options.
+- Kept Fast CGI header fix to prevent Bad Gateway.
+- Removed old WiFi Manager v80 label.
+
+CHANGED
+- Cloud Update & Repair is the normal Admin update button.
+- GitHub Update naming is no longer used.
+
+Production Edition - Build 002 - 05-07-2026
+------------------------------------------------------------
+FIXED
+- WiFi Manager Bad Gateway.
+- Clean deploy recovery.
+- Bootstrap changed to MatrixToolkit_BuildXXX.tar.gz.
+
+Production Edition - Build 001 - 04-07-2026
+------------------------------------------------------------
+OFFICIAL PRODUCTION BASELINE

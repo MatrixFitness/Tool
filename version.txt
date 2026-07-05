@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build003
+Edition=Production Edition
+Release=Production Edition
+Build=003
+BuildDate=2026-07-05
+BuildID=20260705-003
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 003 restores the full WiFi Manager with profiles/default WiFi and keeps the Fast CGI Bad Gateway fix.
