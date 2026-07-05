@@ -1,0 +1,18 @@
+Matrix Toolkit - Production Edition
+Build: 005
+Build Date: 05-07-2026
+Build ID: 20260705-005
+Status: Stable
+
+BUILD 005 - CLEAN UPDATE LOGGING
+
+New:
+- Current update log is recreated every update.
+- Old update results are stored separately in update history.
+- Already-up-to-date detection.
+- Cleaner update log output.
+- Re-running Cloud Update & Repair on the same build no longer reinstalls unnecessarily.
+
+Files:
+- Current log: /tmp/matrix_update_github.log
+- History log: /usr/local/matrix/logs/update_history.log
