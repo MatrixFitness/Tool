@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build007
+Edition=Production Edition
+Release=Production Edition
+Build=007
+BuildDate=2026-07-05
+BuildID=20260705-007
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 007 removes the separate update status file and derives Cloud Update status from request, lock and log state.
