@@ -1,0 +1,36 @@
+================================================
+MATRIX TOOLKIT ENGINEER GUIDE
+================================================
+
+CURRENT BUILD
+
+Product     : Matrix Toolkit
+Edition     : Production Edition
+Build       : 008
+Build Date  : 05-07-2026
+Build ID    : 20260705-008
+Status      : Stable
+
+
+BUILD 008 FIX
+
+Cloud Update status now detects:
+
+BOOTSTRAP COMPLETED
+
+as SUCCESS.
+
+Recovery installs the update worker atomically using:
+
+matrix_update_worker.sh.new
+mv -f matrix_update_worker.sh.new matrix_update_worker.sh
+
+
+NORMAL UPDATE
+
+matrix-update
+
+VERIFY
+
+matrix-version
+matrix-doctor

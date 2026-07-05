@@ -1,0 +1,14 @@
+CHANGELOG
+
+Production Edition - Build 008 - 05-07-2026
+------------------------------------------------------------
+FIXED
+- Cloud Update status could stay IDLE after successful bootstrap.
+- BOOTSTRAP COMPLETED is now detected as SUCCESS.
+- update worker is installed atomically to avoid interrupting the running worker.
+
+Production Edition - Build 007 - 05-07-2026
+------------------------------------------------------------
+NEW
+- Update page derives status from request, lock and log.
+- Removed UNKNOWN state.

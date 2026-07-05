@@ -1,0 +1,13 @@
+Matrix Toolkit - Production Edition
+Build: 008
+Build Date: 05-07-2026
+Build ID: 20260705-008
+Status: Stable
+
+BUILD 008 - UPDATE STATUS FINALIZATION FIX
+
+Fixed:
+- Cloud Update page could stay IDLE after a successful update.
+- Status page now recognizes BOOTSTRAP COMPLETED as SUCCESS.
+- Recovery no longer overwrites the running update worker directly.
+- New worker is written to matrix_update_worker.sh.new and then moved into place.
