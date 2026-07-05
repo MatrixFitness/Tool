@@ -1,0 +1,116 @@
+================================================
+MATRIX TOOLKIT ENGINEER GUIDE
+================================================
+
+CURRENT BUILD
+
+Product     : Matrix Toolkit
+Edition     : Production Edition
+Build       : 002
+Build Date  : 05-07-2026
+Build ID    : 20260705-002
+Status      : Stable
+
+
+================================================
+SCENARIO 1 - NEW ROUTER / FACTORY RESET
+================================================
+
+>>> COPY THIS COMMAND <<<
+
+firstboot && reboot
+
+
+>>> COPY THIS COMMAND <<<
+
+cd /tmp
+rm -f bootstrap.sh
+wget -O bootstrap.sh https://raw.githubusercontent.com/MatrixFitness/Tool/main/bootstrap.sh
+chmod +x bootstrap.sh
+
+
+>>> COPY THIS COMMAND <<<
+
+sh bootstrap.sh
+
+
+VERIFY
+
+matrix-version
+matrix-doctor
+
+
+================================================
+SCENARIO 2 - OLD ROUTERS / ONE-TIME MIGRATION
+================================================
+
+>>> COPY THIS COMMAND <<<
+
+cd /tmp
+rm -f bootstrap.sh
+wget -O bootstrap.sh https://raw.githubusercontent.com/MatrixFitness/Tool/main/bootstrap.sh
+chmod +x bootstrap.sh
+BOOTSTRAP_MODE=update sh bootstrap.sh
+
+
+VERIFY
+
+matrix-version
+matrix-doctor
+matrix-zerotier
+
+
+================================================
+SCENARIO 3 - NORMAL UPDATE
+================================================
+
+>>> COPY THIS COMMAND <<<
+
+matrix-update
+
+
+VIEW UPDATE LOG
+
+cat /tmp/matrix_update_github.log
+
+
+VERIFY
+
+matrix-version
+matrix-doctor
+
+
+================================================
+WIFI MANAGER CHECK
+================================================
+
+>>> COPY THIS COMMAND <<<
+
+head -5 /usr/local/matrix/web/cgi-bin/wifi_manager.sh
+grep -n "Content-Type" /usr/local/matrix/web/cgi-bin/wifi_manager.sh
+
+
+EXPECTED
+
+Content-Type must be near the top of the file.
+The file must NOT say Matrix WiFi Manager v80.
+
+
+================================================
+GITHUB UPLOAD STRUCTURE
+================================================
+
+ROOT
+
+bootstrap.sh
+latest.txt
+version.txt
+CHANGELOG.txt
+Release_002.txt
+Matrix_Toolkit_Engineer_Guide.txt
+Matrix_Toolkit_Engineer_Guide.pdf
+
+
+RELEASES
+
+MatrixToolkit_Build002.tar.gz

@@ -1,0 +1,17 @@
+Matrix Toolkit - Production Edition
+Build: 002
+Build Date: 05-07-2026
+Build ID: 20260705-002
+Status: Stable
+
+BUILD 002 - CLEAN DEPLOY AND WIFI MANAGER FIX
+
+Fixed:
+- WiFi Manager Bad Gateway on page open.
+- Old WiFi Manager v80 could remain after update.
+- Recovery now performs clean deployment for Toolkit/Admin/CGI/bin/platform.
+- Build validation checks for old version references in critical scripts.
+
+Upload:
+- Root files via GitHub_Root_Files_Build002.zip.
+- Release package: MatrixToolkit_Build002.tar.gz.
