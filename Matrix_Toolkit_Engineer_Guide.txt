@@ -1,0 +1,60 @@
+================================================
+MATRIX TOOLKIT ENGINEER GUIDE
+================================================
+
+CURRENT BUILD
+
+Product     : Matrix Toolkit
+Edition     : Production Edition
+Build       : 004
+Build Date  : 05-07-2026
+Build ID    : 20260705-004
+Status      : Stable
+
+
+================================================
+ADMIN UPDATE
+================================================
+
+Use:
+
+Admin
+Cloud Maintenance
+Cloud Update & Repair
+
+CLI equivalent:
+
+matrix-update
+
+
+================================================
+NORMAL UPDATE
+================================================
+
+>>> COPY THIS COMMAND <<<
+
+matrix-update
+
+
+VERIFY
+
+matrix-version
+matrix-doctor
+
+
+================================================
+WIFI MANAGER BUILD 004
+================================================
+
+Build 004 adds:
+- Installation Progress
+- Next Recommended Action
+- Active Internet Path
+- Previous Survey / Last Customer WiFi
+
+Check:
+
+head -8 /usr/local/matrix/web/cgi-bin/wifi_manager.sh
+grep -n "Installation Progress" /usr/local/matrix/web/cgi-bin/wifi_manager.sh
+grep -n "Next Recommended Action" /usr/local/matrix/web/cgi-bin/wifi_manager.sh
+grep -n "Content-Type" /usr/local/matrix/web/cgi-bin/wifi_manager.sh
