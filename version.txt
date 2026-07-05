@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build001
+Edition=Production Edition
+Release=Production Edition
+Build=001
+BuildDate=2026-07-04
+BuildID=20260704-001
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Official Production Baseline. Build numbering introduced. Cloud-only install/update workflow, Cloud Maintenance menu, Matrix Recovery, Matrix Doctor, ZeroTier repair and mobile Engineer Guide included.

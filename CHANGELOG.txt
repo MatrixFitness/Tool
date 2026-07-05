@@ -1,0 +1,27 @@
+CHANGELOG
+
+Production Edition - Build 001 - 04-07-2026
+------------------------------------------------------------
+OFFICIAL PRODUCTION BASELINE
+
+NEW
+- WiFi Manager Fast CGI fix to prevent Bad Gateway on page open.
+- Production Edition build numbering introduced.
+- Build ID introduced: 20260704-001.
+- Mobile optimized Engineer Guide introduced.
+- Cloud Maintenance menu standard introduced.
+- Final cloud-only installation/update workflow documented.
+
+INCLUDED FROM PREVIOUS BASE
+- Cloud Update uses bootstrap.sh and latest.txt.
+- Matrix Recovery repairs platform files, services and ZeroTier.
+- Matrix Doctor checks system health.
+- ZeroTier interface, IPv4 address and route checks.
+- Firewall 8080/8081 checks.
+- Admin restore fix.
+- Professional Admin dashboard.
+
+REMOVED FROM NORMAL WORKFLOW
+- USB installation is no longer part of the normal workflow.
+- install.sh is not used in production.
+- ZIP files are no longer produced for production releases.
