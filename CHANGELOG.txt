@@ -1,0 +1,7 @@
+CHANGELOG
+
+Production Edition - Build 009 - 05-07-2026
+------------------------------------------------------------
+FIXED
+- BusyBox build-number padding issue for 008/009.
+- Bootstrap now converts the build to decimal before printf.

@@ -1,0 +1,10 @@
+MATRIX TOOLKIT ENGINEER GUIDE
+
+Build 009 fixes build number formatting.
+
+Expected:
+latest.txt = 009
+download = MatrixToolkit_Build009.tar.gz
+
+Normal update:
+matrix-update

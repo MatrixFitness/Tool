@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build009
+Edition=Production Edition
+Release=Production Edition
+Build=009
+BuildDate=2026-07-05
+BuildID=20260705-009
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 009 fixes bootstrap build-number padding for values such as 008 and 009.
