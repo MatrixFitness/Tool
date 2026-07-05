@@ -1,0 +1,14 @@
+Matrix Toolkit - Production Edition
+Build: 007
+Build Date: 05-07-2026
+Build ID: 20260705-007
+Status: Stable
+
+BUILD 007 - ROBUST CLOUD UPDATE STATUS
+
+New:
+- No separate /tmp/matrix_update_status file.
+- Update page derives status from request, lock and log.
+- UNKNOWN status removed.
+- Auto-refresh only while waiting/running.
+- Auto-refresh stops on Success, Failed or Already up to date.
