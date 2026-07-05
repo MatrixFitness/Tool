@@ -1,0 +1,22 @@
+CHANGELOG
+
+Production Edition - Build 006 - 05-07-2026
+------------------------------------------------------------
+NEW
+- Live Cloud Update status page with auto-refresh.
+- Browser-friendly reconnect behavior during uhttpd/network restart.
+- Clean current log.
+- Separate technical log.
+- Separate update history.
+- Already-up-to-date detection.
+
+CHANGED
+- Cloud Update & Repair no longer depends on keeping one long HTTP request open.
+- update_github_log.sh now shows a live status dashboard.
+
+Production Edition - Build 005 - 05-07-2026
+------------------------------------------------------------
+NEW
+- Clean current update log.
+- Separate update history log.
+- Already-up-to-date detection.

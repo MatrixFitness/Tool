@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build006
+Edition=Production Edition
+Release=Production Edition
+Build=006
+BuildDate=2026-07-05
+BuildID=20260705-006
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 006 adds a live Cloud Update status page with reconnect behavior, clean current log, separate history and already-up-to-date detection.

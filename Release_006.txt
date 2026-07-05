@@ -1,0 +1,21 @@
+Matrix Toolkit - Production Edition
+Build: 006
+Build Date: 05-07-2026
+Build ID: 20260705-006
+Status: Stable
+
+BUILD 006 - LIVE CLOUD UPDATE STATUS PAGE
+
+New:
+- Cloud Update starts and immediately shows a live reconnect/status page.
+- Log page auto-refreshes and reconnects after uhttpd/network restart.
+- Current update log is clean and recreated every update.
+- Technical bootstrap output is stored separately.
+- Update history remains available.
+- Already-up-to-date detection remains available.
+
+Files:
+- Current update log: /tmp/matrix_update_github.log
+- Technical update log: /tmp/matrix_update_technical.log
+- Update status: /tmp/matrix_update_status
+- Update history: /usr/local/matrix/logs/update_history.log
