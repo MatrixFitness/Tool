@@ -1,0 +1,33 @@
+Matrix Toolkit - Production Edition
+Build: 001
+Build Date: 04-07-2026
+Build ID: 20260704-001
+Status: Stable
+
+OFFICIAL PRODUCTION BASELINE
+
+Included:
+- Cloud-only installation workflow.
+- Cloud Update & Repair via matrix-update.
+- Matrix Recovery.
+- Matrix Doctor.
+- ZeroTier auto repair.
+- ZeroTier UCI interface/IP/route checks.
+- Firewall 8080/8081 repair.
+- uhttpd 8080/8081 repair.
+- Admin restore.
+- Professional Admin menu with Cloud Maintenance.
+- Mobile optimized Engineer Guide.
+- CHANGELOG and Release Notes.
+
+Production rules:
+- Use bootstrap.sh for new routers or factory reset.
+- Use one-time bootstrap migration for old routers.
+- Use matrix-update for normal updates.
+- Do not use USB installation as normal workflow.
+- Do not use install.sh in production.
+- Do not upload ZIP files to releases.
+- Upload only MatrixToolkit_Build001.tar.gz to releases.
+
+Fix included:
+- WiFi Manager Fast CGI fix to prevent Bad Gateway on page open.
