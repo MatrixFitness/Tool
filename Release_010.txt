@@ -1,0 +1,19 @@
+Matrix Toolkit - Production Edition
+Build: 010
+Build Date: 05-07-2026
+Build ID: 20260705-010
+Status: Stable
+
+BUILD 010 - STABILIZATION BUILD
+
+New:
+- New ZeroTier Manager page in professional/direct style.
+- ZeroTier status is OK when ONLINE, network OK, IP exists, route exists and Toolkit/Admin are reachable.
+- Active ZeroTier home detection.
+- Wrong ZeroTier home / 401 info {} is not treated as full ZeroTier failure.
+
+Fixed:
+- Legacy admin links /cgi-bin/admin_home.sh replaced by /cgi-bin/admin_home.sh.
+- Doctor cron check no longer fails when extra cron jobs exist.
+- Recovery logging falls back to /usr/local/matrix/logs if /tmp log cannot be written.
+- Build number padding fix retained.

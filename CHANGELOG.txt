@@ -1,0 +1,14 @@
+CHANGELOG
+
+Production Edition - Build 010 - 05-07-2026
+------------------------------------------------------------
+NEW
+- New ZeroTier Manager page.
+- Active ZeroTier home detection.
+- Remote Toolkit/Admin reachability shown on ZeroTier Manager.
+
+FIXED
+- ZeroTier Manager no longer shows WARNING when ZeroTier is online and reachable.
+- Legacy Admin links fixed.
+- Doctor cron check improved.
+- Recovery log fallback added.
