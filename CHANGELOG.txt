@@ -1,0 +1,12 @@
+CHANGELOG
+
+Production Edition - Build 012 - 2026-07-08
+------------------------------------------------------------
+FIXED
+- Matrix Doctor ZeroTier status logic.
+- uhttpd invalid Lua prefix warnings.
+- repeated bind warnings after Recovery.
+- Recovery idempotency.
+
+NEW
+- System Information page.

@@ -1,0 +1,17 @@
+Matrix Toolkit - Production Edition
+Build: 012
+Build Date: 2026-07-08
+Build ID: 20260708-012
+Status: Stable
+
+BUILD 012 - DOCTOR, UHTTPD AND SYSTEM INFO FIX
+
+Fixed:
+- Matrix Doctor ZeroTier checks rebuilt.
+- Doctor no longer reports ZeroTier IPv4 address FAIL -> matrix_update_worker.sh.
+- uhttpd generation cleaned and invalid Lua prefix lines removed.
+- Recovery removes old Matrix uhttpd sections before recreating them.
+- Recovery logging falls back to /usr/local/matrix/logs if /tmp cannot be written.
+
+New:
+- System Information page.
