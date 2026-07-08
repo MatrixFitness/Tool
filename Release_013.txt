@@ -1,0 +1,22 @@
+Matrix Toolkit - Production Edition
+Build: 013
+Build Date: 2026-07-08
+Build ID: 20260708-013
+Status: Stable
+
+BUILD 013 - SELF-HEALING UPDATE ENGINE
+
+New:
+- Post-update self-healing.
+- Automatic ZeroTier validation after update.
+- Automatic ZeroTier repair when daemon, interface, IP or route is missing.
+- Update waits for ZeroTier IP before final Doctor.
+- Final Matrix Doctor validation is shown in the update log.
+
+Retained:
+- Router Overview.
+- ZeroTier Manager.
+- System Information.
+- report_test.sh drop-ratio logic.
+- Build number padding fix.
+- uhttpd cleanup fix.

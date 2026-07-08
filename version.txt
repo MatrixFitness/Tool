@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build013
+Edition=Production Edition
+Release=Production Edition
+Build=013
+BuildDate=2026-07-08
+BuildID=20260708-013
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 013 introduces post-update self-healing with automatic ZeroTier recovery and final Matrix Doctor validation.

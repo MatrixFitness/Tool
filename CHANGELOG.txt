@@ -1,0 +1,12 @@
+CHANGELOG
+
+Production Edition - Build 013 - 2026-07-08
+------------------------------------------------------------
+NEW
+- Self-healing post-update engine.
+- Automatic ZeroTier repair during update.
+- Final Doctor run after ZeroTier is ready.
+- Clear update log with ZeroTier status and final health result.
+
+FIXED
+- Manual matrix-recovery should no longer be needed after a normal update when ZeroTier is slow to return.
