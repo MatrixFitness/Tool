@@ -1,0 +1,15 @@
+CHANGELOG
+
+Production Edition - Build 011 - 07-07-2026
+------------------------------------------------------------
+NEW
+- Router Overview page.
+- JDKMatrix = Denemarken.
+- JNLMatrix = Nederland.
+- JBEMatrix = Belgie.
+
+IMPROVED
+- Cloud Update final status recognition.
+- report_test.sh interface judgement.
+- Dropped packet calculation now uses percentage/ratio.
+- Virtual/mobile interfaces are handled separately.

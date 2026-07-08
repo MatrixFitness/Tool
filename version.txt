@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build011
+Edition=Production Edition
+Release=Production Edition
+Build=011
+BuildDate=2026-07-07
+BuildID=20260707-011
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 011 adds Router Overview, improves Cloud Update final status behavior and improves report_test interface drop/virtual-interface judgement.
