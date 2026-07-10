@@ -1,0 +1,15 @@
+Matrix Toolkit - Production Edition
+Build: 015
+Build Date: 2026-07-10
+Build ID: 20260710-015
+Status: Stable
+
+BUILD 015 - LIVE UPDATE MONITOR AND ZEROTIER STATE MACHINE
+
+- Update page remains open and reconnects automatically after uhttpd restarts.
+- Live status uses short polling requests.
+- Final status is stored in /tmp and persistently.
+- Identity backup only happens when identity.secret is valid.
+- Existing persistent identity is never overwritten automatically.
+- ZeroTier automatically joins the network and waits for OK or ACCESS_DENIED.
+- Update completes only after ZeroTier IP, route and final Matrix Doctor.

@@ -1,0 +1,14 @@
+Matrix Toolkit - Production Edition
+Build: 014
+Build Date: 2026-07-10
+Build ID: 20260710-014
+Status: Stable
+
+BUILD 014 - PERSISTENT ZEROTIER IDENTITY
+
+- Stores identity.secret, identity.public and authtoken.secret persistently.
+- Restores identity before ZeroTier startup.
+- Uses /tmp/run/zerotier as runtime.
+- Detects Node ID mismatch and restores the expected identity.
+- Starts only one ZeroTier daemon.
+- Reports ACCESS_DENIED with the Node ID that must be authorized.

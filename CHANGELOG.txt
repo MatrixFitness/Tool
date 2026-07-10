@@ -1,0 +1,6 @@
+CHANGELOG
+
+Build 015
+- Live update monitor with reconnect.
+- Persistent update status.
+- Improved ZeroTier identity/state machine.
