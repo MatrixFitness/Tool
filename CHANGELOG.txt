@@ -1,0 +1,7 @@
+CHANGELOG
+
+Build 014
+- Persistent ZeroTier identity.
+- Automatic identity backup/restore.
+- Node ID mismatch correction.
+- Single daemon enforcement.
