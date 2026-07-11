@@ -1,9 +1,0 @@
-CHANGELOG
-
-Build 016
-- Fixed active update worker installation.
-- Added active ZeroTier runtime detection.
-- Existing responsive ZeroTier daemon is reused.
-- Duplicate port 9993 daemon startup prevented.
-- Controlled fallback restart and automatic network join.
-- Live update status retained.
