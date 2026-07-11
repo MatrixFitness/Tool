@@ -1,0 +1,8 @@
+CHANGELOG
+
+Build 017
+- Central ZeroTier runtime library.
+- Unified matrix-zerotier and Doctor checks.
+- Automatic Node ID mismatch repair.
+- Hard-stop and port 9993 wait.
+- Shared update/recovery validation.
