@@ -1,0 +1,6 @@
+BUILD 018
+
+Upload root files and releases/MatrixToolkit_Build018.tar.gz.
+Run: matrix-update
+Verify: matrix-version, matrix-zerotier, matrix-doctor
+Expected: FAIL: 0, WARN: 0, SYSTEM HEALTH: OK
