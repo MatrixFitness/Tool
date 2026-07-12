@@ -1,6 +1,0 @@
-CHANGELOG
-
-Build 018
-- Fixed zt_device parser: $3 is network ID and $(NF-1) is device.
-- Added parser validation during install.
-- Added runtime device/IP validation before update success.
