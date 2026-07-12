@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build019
+Edition=Production Edition
+Release=Production Edition
+Build=019
+BuildDate=2026-07-12
+BuildID=20260712-019
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 019 adds live CLI update progress and avoids network or ZeroTier restarts unless targeted repair is required.

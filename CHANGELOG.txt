@@ -1,0 +1,8 @@
+CHANGELOG
+
+Build 019
+- Live progress in matrix-update.
+- Doctor-first validation.
+- Targeted ZeroTier repair only on failure.
+- No preventive ZeroTier restart during healthy updates.
+- No deliberate SSH or network restart.
