@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build020
+Edition=Production Edition
+Release=Production Edition
+Build=020
+BuildDate=2026-07-12
+BuildID=20260712-020
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 020 adds the three-router directory to Cloud Update and Admin Home.
