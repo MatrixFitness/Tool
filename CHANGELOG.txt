@@ -1,0 +1,6 @@
+CHANGELOG
+
+Build 021
+- Persistent last and previous update logs.
+- CLI status fallback.
+- Cloud Update log fallback.

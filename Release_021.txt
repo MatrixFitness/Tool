@@ -1,0 +1,9 @@
+Matrix Toolkit - Production Edition
+Build: 021
+
+Persistent logs:
+- /tmp/matrix_update_github.log
+- /usr/local/matrix/logs/matrix_update_last.log
+- /usr/local/matrix/logs/matrix_update_previous.log
+
+matrix-update --status and Cloud Update now use the persistent log if /tmp is empty.
