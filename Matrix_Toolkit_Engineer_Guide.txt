@@ -1,9 +1,0 @@
-BUILD 021
-
-Run:
-matrix-update
-matrix-update --status
-
-Persistent logs:
-cat /usr/local/matrix/logs/matrix_update_last.log
-cat /usr/local/matrix/logs/matrix_update_previous.log
