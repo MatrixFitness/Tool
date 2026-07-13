@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build022
+Edition=Production Edition
+Release=Production Edition
+Build=022
+BuildDate=2026-07-13
+BuildID=20260713-022
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 022 makes Matrix Doctor self-healing and ensures recovery installs the current CLI tools.
