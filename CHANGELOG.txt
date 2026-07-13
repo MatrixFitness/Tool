@@ -1,8 +1,0 @@
-CHANGELOG
-
-Build 022
-- Added automatic repair to matrix-doctor.
-- Added matrix-doctor --check-only.
-- Added automatic post-repair diagnostic.
-- Fixed recovery installing outdated embedded CLI scripts.
-- SAFE_UPDATE now skips the general network restart.
