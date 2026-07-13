@@ -1,7 +1,0 @@
-CHANGELOG
-
-Build 020
-- Added three router cards to Cloud Update.
-- Added three router cards to Admin Home.
-- Added online/offline checks and quick links.
-- Current router is highlighted.
