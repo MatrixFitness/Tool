@@ -1,9 +1,0 @@
-BUILD 023
-
-Matrix defaults:
-<HOSTNAME>_2G
-<HOSTNAME>_5G
-Password: matrixfitness
-
-Test backup:
-/usr/local/matrix/backups/wifi_test_mode_wireless.conf
