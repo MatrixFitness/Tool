@@ -1,0 +1,8 @@
+CHANGELOG
+
+Build 023
+- Added reversible WiFi Test Mode.
+- Added Restore Previous WiFi.
+- Added installer quick actions.
+- Added Matrix default warning.
+- Improved Router Info responsive layout.
