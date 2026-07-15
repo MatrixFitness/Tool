@@ -1,0 +1,9 @@
+CHANGELOG
+
+Build 027
+- Added self-healing Admin password file.
+- Added default recovery password Matrix2025 when no password exists.
+- Preserves existing custom Admin passwords.
+- Added Admin password checks to Matrix Doctor.
+- Added authentication repair to update, bootstrap and recovery.
+- Clears stale Admin sessions after password repair.
