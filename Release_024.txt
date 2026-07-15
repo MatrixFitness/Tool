@@ -1,9 +1,0 @@
-Matrix Toolkit - Production Edition
-Build: 024
-
-ROUTER INFO RESPONSIVE EDITION
-- Replaces both router_info.sh and routerinfo.sh.
-- Mobile-first card layout.
-- System, WAN, LAN, WiFi, LTE and ZeroTier sections.
-- Touch-friendly buttons and wrapped values.
-- Build 024 WiFi Manager retained.
