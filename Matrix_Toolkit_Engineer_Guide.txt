@@ -1,5 +1,0 @@
-BUILD 024
-
-Upload releases/MatrixToolkit_Build024.tar.gz and root files.
-Run matrix-update.
-Check Router Info on phone and PC.
