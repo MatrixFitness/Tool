@@ -1,0 +1,15 @@
+Matrix Toolkit - Production Edition
+Build: 026
+Build Date: 2026-07-15
+Status: Stable
+
+BUILD 026 - ZEROTIER AUTHORIZATION ASSISTANT
+
+- Joins the Matrix ZeroTier network automatically.
+- Detects ACCESS_DENIED accurately.
+- Shows the exact Node ID to authorize.
+- Waits up to 10 minutes by default.
+- Rechecks every 5 seconds.
+- Continues automatically after approval.
+- Waits for the assigned 10.74.x.x address.
+- Runs Matrix Doctor only when ZeroTier is ready.

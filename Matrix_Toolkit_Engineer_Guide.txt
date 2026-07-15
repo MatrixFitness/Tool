@@ -1,0 +1,11 @@
+BUILD 026
+
+After firmware update:
+
+wget -O /tmp/matrix-firmware-recovery.sh \
+https://raw.githubusercontent.com/MatrixFitness/Tool/main/firmware_recovery.sh
+
+sh /tmp/matrix-firmware-recovery.sh
+
+If authorization is required, authorize the shown Node ID in ZeroTier Central.
+Recovery continues automatically.

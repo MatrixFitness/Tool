@@ -1,0 +1,7 @@
+CHANGELOG
+
+Build 026
+- Added authorization wait and automatic continuation.
+- Added clear Node ID display.
+- Added ZeroTier IP wait before final Doctor.
+- Removed premature authorization warning.
