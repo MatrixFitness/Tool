@@ -1,0 +1,25 @@
+Matrix Toolkit - Production Edition
+Build: 028
+Build Date: 2026-07-15
+Status: Stable
+
+BUILD 028 - ADMIN LOGIN PERMISSION FIX
+
+Admin Authentication:
+- Fixes the Admin login failure introduced by mode 600.
+- Uses owner root:root and permissions 644 for admin_password.txt.
+- Allows the Admin CGI process to read the password file.
+- Creates Matrix2025 only when the password file is missing or empty.
+- Never overwrites an existing non-empty custom password.
+- Clears stale Admin sessions after repair.
+- Restarts uhttpd after permission or password repair.
+
+Matrix Doctor:
+- Expects mode 644.
+- Repairs incorrect owner or permissions automatically.
+- Reports Admin password file and permission status.
+
+Retained:
+- Build 028 password self-healing.
+- Build 026 ZeroTier authorization assistant.
+- Build 025 firmware recovery.
