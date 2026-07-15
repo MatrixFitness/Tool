@@ -1,0 +1,17 @@
+BUILD 025 - FIRMWARE RECOVERY
+
+After a firmware update, run from CLI:
+
+wget -O /tmp/matrix-firmware-recovery.sh https://raw.githubusercontent.com/MatrixFitness/Tool/main/firmware_recovery.sh
+
+sh /tmp/matrix-firmware-recovery.sh
+
+After installation:
+matrix-version
+matrix-zerotier
+matrix-doctor
+
+If ZeroTier reports ACCESS_DENIED:
+Authorize the displayed Node ID in ZeroTier Central.
+
+The same old Node ID is restored only when an external identity backup exists.

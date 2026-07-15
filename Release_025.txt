@@ -1,0 +1,33 @@
+Matrix Toolkit - Production Edition
+Build: 025
+Build Date: 2026-07-15
+Status: Stable
+
+BUILD 025 - FIRMWARE RECOVERY EDITION
+
+Purpose:
+Rebuild the Matrix Toolkit after a RUTOS firmware update has removed /usr/local
+and optional Teltonika packages.
+
+Firmware recovery:
+- Downloads the latest Toolkit from GitHub.
+- Reinstalls the complete Toolkit and CLI.
+- Reinstalls the Teltonika ZeroTier package when missing.
+- Recreates the RUTOS 7.24 ZeroTier UCI instance and network configuration.
+- Uses the official Teltonika procd ZeroTier service.
+- Detects the new /var/run/zerotier runtime layout.
+- Restores a saved ZeroTier identity when a persistent backup is available.
+- Otherwise generates a new identity and reports the Node ID that must be authorized.
+- Recreates uhttpd, cron, firewall and network interface configuration.
+- Runs the self-healing Matrix Doctor after recovery.
+
+Persistent identity:
+- Local working copy:
+  /usr/local/matrix/zerotier_identity
+- USB/external backup when available:
+  /usr/local/mnt/sda1/MatrixBackup/zerotier_identity
+
+Important:
+A firmware update can erase /usr/local. The same ZeroTier Node ID can only be
+restored when the secret identity survived on external storage. The secret is
+never stored in GitHub.

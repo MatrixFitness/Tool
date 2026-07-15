@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build025
+Edition=Production Edition
+Release=Production Edition
+Build=025
+BuildDate=2026-07-15
+BuildID=20260715-025
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 025 rebuilds the complete Toolkit and ZeroTier after a RUTOS firmware update.

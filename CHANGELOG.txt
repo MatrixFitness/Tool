@@ -1,0 +1,10 @@
+CHANGELOG
+
+Build 025
+- Added GitHub firmware recovery installer.
+- Added automatic opkg installation of ZeroTier.
+- Added RUTOS 7.24 ZeroTier UCI provisioning.
+- Added official Teltonika procd service support.
+- Added /var/run/zerotier runtime detection.
+- Added external ZeroTier identity backup support.
+- Added matrix-firmware-recovery CLI.
