@@ -1,0 +1,8 @@
+CHANGELOG
+
+Build 040
+- Added root WiFi action worker.
+- Added queued action request format.
+- Added guaranteed CGI response helpers.
+- Removed direct UCI and wifi reload operations from web action CGI.
+- Added WiFi action status page.
