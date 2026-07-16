@@ -1,0 +1,31 @@
+Matrix Toolkit - Production Edition
+Build: 033
+Build Date: 2026-07-16
+Status: Stable
+
+BUILD 033 - TRANSACTIONAL INSTALLER
+
+Core installation:
+- Always uses the newly downloaded /tmp/MatrixInstall package.
+- Never silently switches back to an older recovery_source.
+- Preserves only persistent configuration, logs and ZeroTier identity.
+- Removes old Matrix runtime files and obsolete CLI commands.
+- Installs one complete build in a clean transaction.
+- Validates the staged package before replacing the active Toolkit.
+- Validates the installed Build number before running Matrix Doctor.
+- Restores configuration only after all new files are installed.
+
+Stability:
+- Removes malformed authentication source printed as log text.
+- Removes duplicate Admin authentication repair blocks.
+- Installs the complete lib directory.
+- Installs the matching Matrix Doctor and update worker from the same build.
+- Prevents Build 033 from running an old Build 030 Doctor.
+- ZeroTier repair remains non-destructive and does not block local Toolkit installation.
+
+Retained:
+- Fleet Dashboard and Fleet Scan.
+- Fleet status cache.
+- Smart ZeroTier detection.
+- Admin password recovery with mode 644.
+- Firmware recovery.

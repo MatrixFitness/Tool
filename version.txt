@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build033
+Edition=Production Edition
+Release=Production Edition
+Build=033
+BuildDate=2026-07-16
+BuildID=20260716-033
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 033 introduces a transactional installer and eliminates mixed-build deployments.
