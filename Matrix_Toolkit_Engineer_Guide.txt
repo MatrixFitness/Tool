@@ -1,0 +1,11 @@
+BUILD 032
+
+Update all routers:
+matrix-update
+
+Then scan:
+matrix-fleet-scan
+
+Fleet files:
+/usr/local/matrix/fleet.conf
+/usr/local/matrix/fleet-cache/

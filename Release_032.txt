@@ -1,0 +1,14 @@
+Matrix Toolkit - Production Edition
+Build: 032
+Build Date: 2026-07-16
+Status: Stable
+
+BUILD 032 - FLEET STATUS FIX
+
+- Detects the current router locally.
+- Uses a compatible remote status request.
+- Uses Toolkit reachability as an online fallback.
+- Stores the last successful router status.
+- Keeps Build, Node ID, Firmware and Last Seen visible from cache.
+- Shows LIVE, CACHED or OFFLINE state.
+- Refreshes Fleet every 30 seconds.
