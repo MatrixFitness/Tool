@@ -1,7 +1,0 @@
-CHANGELOG
-
-Build 028
-- Changed admin_password.txt permissions from 600 to 644.
-- Fixed Admin CGI login access to the password file.
-- Updated Matrix Doctor permission checks and repair.
-- Preserves existing custom passwords.
