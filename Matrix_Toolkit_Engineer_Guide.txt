@@ -1,0 +1,13 @@
+BUILD 039
+
+Update:
+matrix-update
+
+WiFi Manager:
+http://<router-ip>:8080/cgi-bin/wifi_manager.sh
+
+Functions:
+- 2.4 GHz: Enable, Disable, Configure
+- 5 GHz: Enable, Disable, Configure
+- Both: Enable, Disable, Configure
+- Profiles: Apply, Add, Edit, Delete

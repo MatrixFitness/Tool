@@ -1,0 +1,8 @@
+CHANGELOG
+
+Build 039
+- Added individual 2.4 GHz enable, disable and configure controls.
+- Added individual 5 GHz enable, disable and configure controls.
+- Added combined dual-band configuration.
+- Added same-credentials option for both bands.
+- Restored user profile add, edit, delete and apply.
