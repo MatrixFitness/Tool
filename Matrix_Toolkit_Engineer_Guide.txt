@@ -1,0 +1,18 @@
+BUILD 038
+
+Update:
+matrix-update
+
+WiFi Manager:
+http://<router-ip>:8080/cgi-bin/wifi_manager.sh
+
+Pages:
+- Status
+- Profiles
+- Actions
+- Logs
+
+Fleet source:
+/usr/local/matrix/fleet.conf
+
+The Update Log page uses no fixed ZeroTier IP addresses.

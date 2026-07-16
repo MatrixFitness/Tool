@@ -1,0 +1,27 @@
+Matrix Toolkit - Production Edition
+Build: 038
+Build Date: 2026-07-16
+Status: Stable
+
+BUILD 038 - MODULAR WIFI AND DYNAMIC FLEET
+
+WiFi Manager:
+- Replaces the old heavy diagnostic page.
+- Adds separate lightweight pages for Status, Profiles, Actions and Logs.
+- No automatic refresh or background polling.
+- Heavy tests run only when the user explicitly opens the relevant page.
+- Existing profile actions remain available through a dedicated action endpoint.
+
+Update Log:
+- Removes all hardcoded ZeroTier IP addresses.
+- Reads JNLMatrix, JBEMatrix and JDKMatrix directly from /usr/local/matrix/fleet.conf.
+- Uses the same current addresses as the Fleet Dashboard.
+- No automatic online checks or background fetch requests.
+
+Fleet:
+- Keeps Build 038 hostname and Node ID fixes.
+
+Retained:
+- Build 036 centralized web control.
+- Build 035 Low Resource Fleet.
+- Build 033 transactional installer.

@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build038
+Edition=Production Edition
+Release=Production Edition
+Build=038
+BuildDate=2026-07-16
+BuildID=20260716-038
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 038 modularizes WiFi diagnostics and removes all hardcoded Fleet IP addresses from the Update Log page.

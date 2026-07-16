@@ -1,0 +1,10 @@
+CHANGELOG
+
+Build 038
+- Replaced wifi_manager_full.sh with modular WiFi pages.
+- Added wifi_manager_status.sh.
+- Added wifi_manager_profiles.sh.
+- Added wifi_manager_action.sh.
+- Added wifi_manager_logs.sh.
+- Removed hardcoded ZeroTier IP addresses from update_github_log.sh.
+- Update Log now reads fleet.conf.
