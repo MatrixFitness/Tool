@@ -1,0 +1,7 @@
+CHANGELOG
+
+Build 034
+- Increased Toolkit CGI timeout.
+- Added WiFi Manager health endpoint.
+- Added locked matrix-web-reload.
+- Removed duplicate Admin checks.

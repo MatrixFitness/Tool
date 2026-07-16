@@ -1,0 +1,11 @@
+BUILD 034
+
+Update:
+matrix-update
+
+Verify:
+matrix-version
+matrix-doctor
+
+WiFi Manager health:
+wget -q -O - -T 10 'http://127.0.0.1:8080/cgi-bin/wifi_manager.sh?health=1'
