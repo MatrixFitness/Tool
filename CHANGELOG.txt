@@ -1,0 +1,6 @@
+CHANGELOG
+
+Build 035
+- Removed automatic Fleet refresh.
+- Removed periodic browser polling.
+- Kept manual Refresh Status and Scan Fleet.

@@ -1,0 +1,15 @@
+Matrix Toolkit - Production Edition
+Build: 035
+Build Date: 2026-07-16
+Status: Stable
+
+BUILD 035 - LOW RESOURCE FLEET
+
+- No automatic Fleet page refresh.
+- No periodic background polling.
+- Status loads once when Admin Home opens.
+- Refresh Status is manual.
+- Scan Fleet is manual.
+- No automatic subnet scans.
+- Minimum CPU, memory and ZeroTier traffic.
+- Build 035 WiFi Manager fix retained.
