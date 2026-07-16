@@ -1,0 +1,7 @@
+CHANGELOG
+
+Build 031
+- Fixed missing admin_auth.sh after update.
+- Prevented Matrix Doctor from closing sessions.
+- Removed malformed bootstrap authentication block.
+- Simplified Admin authentication repair.
