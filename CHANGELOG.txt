@@ -1,0 +1,8 @@
+CHANGELOG
+
+Build 036
+- Moved Matrix update worker exclusively to root cron.
+- Removed update worker from uhttpd cron.
+- Replaced all direct uhttpd restarts with matrix-web-reload.
+- Added port-release waiting before one controlled start.
+- Added cron ownership and direct-restart Doctor checks.
