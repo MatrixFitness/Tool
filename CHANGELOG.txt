@@ -1,8 +1,0 @@
-CHANGELOG
-
-Build 037
-- Added lightweight WiFi Manager shell.
-- Retained original full manager separately.
-- Fixed Fleet hostname.
-- Fixed Fleet Node ID.
-- Separated Toolkit and Admin CGI files.
