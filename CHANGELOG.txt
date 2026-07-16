@@ -1,7 +1,0 @@
-CHANGELOG
-
-Build 032
-- Fixed Fleet cards incorrectly showing all routers offline.
-- Added local status collection for the current router.
-- Added remote status fallback and persistent cache.
-- Added LIVE/CACHED/OFFLINE source display.
