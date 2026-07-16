@@ -1,9 +1,0 @@
-CHANGELOG
-
-Build 033
-- Replaced incremental deployment with a transactional clean deployment.
-- Fixed source selection so /tmp/MatrixInstall always has priority.
-- Removed mixed-build installations.
-- Removed malformed authentication log block.
-- Removed duplicate authentication repair.
-- Added package and installed-build validation.
