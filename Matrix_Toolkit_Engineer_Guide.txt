@@ -1,0 +1,23 @@
+BUILD 030 - MATRIX FLEET
+
+Initial addresses:
+JNLMatrix 10.74.91.191
+JBEMatrix 10.74.91.182
+JDKMatrix 10.74.91.22
+
+Admin Home:
+Use Scan Fleet after a router is reauthorized or receives a new ZeroTier IP.
+
+The scan searches 10.74.91.1 through 10.74.91.254 and stores identified routers in:
+/usr/local/matrix/fleet.conf
+
+CLI scan:
+matrix-fleet-scan
+
+Show configuration:
+cat /usr/local/matrix/fleet.conf
+
+After update:
+matrix-version
+matrix-doctor
+matrix-fleet-scan

@@ -1,0 +1,9 @@
+CHANGELOG
+
+Build 030
+- Added Matrix Fleet Dashboard to Admin Home.
+- Added live fleet status endpoint.
+- Added parallel 10.74.91.0/24 discovery scan.
+- Added persistent fleet.conf.
+- Added automatic IP update after a router receives a new ZeroTier address.
+- Added Toolkit, Admin and Copy SSH actions per router.
