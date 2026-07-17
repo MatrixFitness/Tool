@@ -1,8 +1,0 @@
-CHANGELOG
-
-Build 044
-- Added mobile_fleet.sh.
-- Added home-screen web-app metadata.
-- Redesigned Admin Login for mobile and desktop.
-- Added hostname and build to Admin Login.
-- Removed obsolete duplicate WiFi health check from Matrix Doctor.
