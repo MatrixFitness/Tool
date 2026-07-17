@@ -1,0 +1,14 @@
+CHANGELOG
+
+Build 045
+- Added three clearly visible Admin shortcuts to Mobile Fleet.
+- Added router name to every Admin button.
+- Uses fleet.conf IPs for all Toolkit and Admin links.
+
+
+Build 044
+- Added mobile_fleet.sh.
+- Added home-screen web-app metadata.
+- Redesigned Admin Login for mobile and desktop.
+- Added hostname and build to Admin Login.
+- Removed obsolete duplicate WiFi health check from Matrix Doctor.
