@@ -1,0 +1,18 @@
+BUILD 042
+
+Update:
+matrix-update
+
+LTE worker:
+/usr/local/matrix/lte_info_cache.sh
+
+LTE cache:
+/tmp/matrix_lte_info.cache
+
+Manual refresh:
+http://<router-ip>:8080/cgi-bin/lte_refresh.sh
+
+Verify:
+matrix-doctor
+cat /tmp/matrix_lte_info.cache
+/usr/local/usr/bin/zerotier-cli info

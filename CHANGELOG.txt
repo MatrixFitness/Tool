@@ -1,0 +1,10 @@
+CHANGELOG
+
+Build 042
+- Fixed Fleet ZeroTier Node ID.
+- Fixed Diagnostics Hostname.
+- Installed LTE cache worker correctly.
+- Added root LTE cache cron.
+- Added immediate and manual LTE refresh.
+- Fixed Router Info ZeroTier fields.
+- Added WAN, Gateway, DNS and firmware fallbacks.

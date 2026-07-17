@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build042
+Edition=Production Edition
+Release=Production Edition
+Build=042
+BuildDate=2026-07-17
+BuildID=20260717-042
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 042 repairs Fleet Node ID, Diagnostics hostname, LTE cache generation and Router Info ZeroTier data.
