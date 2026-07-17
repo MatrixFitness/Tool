@@ -1,8 +1,0 @@
-CHANGELOG
-
-Build 041
-- Added matrix_wifi_action init service.
-- Added one-second action watcher.
-- Added live action result endpoint.
-- Added visible current radio state and last result.
-- Added direct 2.4 GHz, 5 GHz and dual-radio Quick Test controls.
