@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build044
+Edition=Production Edition
+Release=Production Edition
+Build=044
+BuildDate=2026-07-17
+BuildID=20260717-044
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 044 adds Mobile Fleet, a responsive branded Admin Login and removes the obsolete WiFi health check.
