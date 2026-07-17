@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build041
+Edition=Production Edition
+Release=Production Edition
+Build=041
+BuildDate=2026-07-16
+BuildID=20260716-041
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 041 adds immediate Quick Test radio control with visible live results.
