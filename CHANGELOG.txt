@@ -1,0 +1,8 @@
+CHANGELOG
+
+Build 043
+- Rebuilt transactional recovery cleanup and failure handling.
+- Added queued root Matrix Doctor web execution.
+- Fixed homepage ZeroTier status and version label.
+- Hardened Fleet Node ID detection.
+- Redesigned LTE Analyse to the current Toolkit style.

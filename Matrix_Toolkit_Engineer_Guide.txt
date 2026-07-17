@@ -1,0 +1,15 @@
+BUILD 043
+
+Update:
+matrix-update
+
+Recovery test:
+matrix-recovery
+
+Web Doctor:
+http://<router-ip>:8081/cgi-bin/matrix_doctor.sh
+
+Verify:
+matrix-version
+matrix-doctor
+wget -q -O - http://127.0.0.1:8080/cgi-bin/fleet_status.sh

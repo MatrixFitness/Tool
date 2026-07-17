@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build043
+Edition=Production Edition
+Release=Production Edition
+Build=043
+BuildDate=2026-07-17
+BuildID=20260717-043
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 043 completes the stability repair for Recovery, web Doctor, Fleet, homepage ZeroTier and LTE presentation.
