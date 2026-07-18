@@ -1,6 +1,0 @@
-Matrix Toolkit Changelog
-
-Build 046
-- Fixed JBE ZeroTier Node ID showing unknown in Mobile Fleet.
-- Added runtime directory, CLI and identity.public fallback detection.
-- No existing functions removed.
