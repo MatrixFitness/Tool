@@ -1,8 +1,0 @@
-Matrix Toolkit Build 053 - Survey Storage Transaction Fix
-
-- Fixes the Start New WiFi Survey storage warning after a GitHub update.
-- Creates /usr/local/matrix/survey immediately during transactional installation.
-- Preserves existing WiFi Survey progress and CSV results during future updates.
-- Installs /usr/local/matrix/matrix_doctor_worker.sh correctly.
-- Adds the Matrix Doctor worker to the root cron automatically.
-- Keeps all Build 052 health score, self-healing, Customer WiFi, EGYM and LTE fixes.
