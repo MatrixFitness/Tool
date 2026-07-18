@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build054
+Edition=Production Baseline
+Release=Report Logo and Print Layout Fix
+Build=054
+BuildDate=2026-07-18
+BuildID=20260718-054
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 054 adds a valid Matrix Fitness report logo and improves A4 print pagination so report cards and table rows do not break abruptly, while retaining all Build 053 survey storage fixes.
