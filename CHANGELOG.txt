@@ -1,9 +1,0 @@
-Build 050 - Production Baseline
-- Clean technician dashboard; management functions remain in Admin.
-- Separate Matrix and EGYM connectivity checks.
-- Site Connectivity for customers with both systems.
-- Selectable Service Test workflow.
-- WiFi Manager and WiFi Survey retained.
-- Maintenance Report entry point for PDF workflow.
-- LTE missing signal values now report No radio data instead of Poor.
-- Legacy firewall and full-test URLs redirect to the new structure.
