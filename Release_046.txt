@@ -1,8 +1,0 @@
-Matrix Toolkit Build 046
-
-Fix:
-- Mobile Fleet now detects the ZeroTier Node ID through the same robust fallback order on every router.
-- Detection order: ZeroTier runtime helper, zerotier-cli, matrix-zerotier output, runtime directory name and identity.public.
-- Specifically resolves JBE showing Node unknown when its runtime directory exists but the normal CLI output is unavailable.
-
-All existing Build 045 functionality remains unchanged.
