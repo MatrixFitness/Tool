@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build052
+Edition=Production Baseline
+Release=Health Score and Self-Healing
+Build=052
+BuildDate=2026-07-18
+BuildID=20260718-052
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 052 adds the Matrix Doctor root worker, automatic WiFi Survey storage repair, softer health-based connectivity conclusions, and final UI corrections for Customer WiFi, EGYM and LTE.
