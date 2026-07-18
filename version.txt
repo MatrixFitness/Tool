@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build053
+Edition=Production Baseline
+Release=Survey Storage Transaction Fix
+Build=053
+BuildDate=2026-07-18
+BuildID=20260718-053
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 053 fixes transactional installation of persistent WiFi Survey storage, preserves survey progress during updates, and installs the Matrix Doctor root worker and cron correctly together with all Build 052 fixes.
