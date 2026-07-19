@@ -1,0 +1,9 @@
+Matrix Toolkit Build 061
+
+Bootstrap Matrix Doctor Version Validation Fix
+
+- Fixed the cloud bootstrap failure after a successful Build 060 installation.
+- Matrix Doctor now carries an explicit MATRIX_DOCTOR_BUILD marker.
+- Bootstrap validation now reads the explicit marker instead of matching an old historical comment.
+- Missing or mismatched Doctor markers still correctly stop the update.
+- Preserved all Build 060 connectivity report detail fixes and Build 059 layout improvements.
