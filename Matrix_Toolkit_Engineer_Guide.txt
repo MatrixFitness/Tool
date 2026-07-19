@@ -1,0 +1,13 @@
+BUILD 044
+
+Update:
+matrix-update
+
+Mobile Fleet:
+http://<router-ip>:8081/cgi-bin/mobile_fleet.sh
+
+Add to iPhone Home Screen:
+Open in Safari -> Share -> Add to Home Screen
+
+Admin Login:
+http://<router-ip>:8081/cgi-bin/admin_login.sh

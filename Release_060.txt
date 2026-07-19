@@ -1,0 +1,11 @@
+Matrix Toolkit Build 060
+
+Connectivity Report Detail Rendering Fix
+
+- Restored all Basis Network detail rows.
+- Restored all Matrix Connectivity detail rows.
+- Restored all EGYM technical IP detail rows.
+- Fixed undefined report variables and missing rendering helpers introduced in Build 059.
+- Added an explicit message if a test section has no results.
+- Added pass, warning, fail and information counts to the report summary cards.
+- Preserved the official MATRIX wordmark and all Build 059 layout and information fixes.
