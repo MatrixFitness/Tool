@@ -1,9 +1,0 @@
-Matrix Toolkit Build 058
-
-- Compact connectivity report header with Router, Toolkit, Location and Test time in one row.
-- Smaller GOOD / ATTENTION / CRITICAL status chip.
-- Improved report table styling and compact A4 print layout.
-- Admin Change Password page now matches the Admin Login design.
-- Customer WiFi compact login layout from Build 057 retained.
-- Official user supplied Matrix logo remains the fixed baseline.
-- All Build 056 survey, WiFi Manager, report pagination and storage fixes retained.
