@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build065
+Edition=Production Baseline
+Release=Quick Actions at Top of WiFi Manager
+Build=065
+BuildDate=2026-07-19
+BuildID=20260719-065
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 065 moves the WiFi Manager Quick Actions above the individual 2.4 GHz and 5 GHz radio information for faster mobile access.
