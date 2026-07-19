@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build063
+Edition=Production Baseline
+Release=Signal Reference Guide and Mobile Data Recovery
+Build=063
+BuildDate=2026-07-19
+BuildID=20260719-063
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 063 adds mobile-friendly WiFi and LTE signal reference cards, improves LTE interpretation, and restores System Information mobile data using cache and multi-source fallbacks.
