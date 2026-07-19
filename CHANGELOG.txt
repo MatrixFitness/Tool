@@ -1,0 +1,8 @@
+Matrix Toolkit Build 062
+
+- Fleet dashboard now checks JNLMatrix, JBEMatrix and JDKMatrix through the same independent HTTP health endpoint, regardless of which router hosts the Admin page.
+- Service Test opens every selected additional test before navigating to the Connectivity report, preventing browser navigation from cancelling the selected modules.
+- ZeroTier Manager shows operational checks in the normal view and moves unreliable CLI home/node details to a collapsible technical section.
+- LTE cache collection supports additional read-only gsmctl formats, normalizes Band and Cell ID, restores RSSI/RSRP/RSRQ/SINR parsing and provides clearer signal advice.
+- WiFi Manager and ZeroTier headers are more compact, and navigation links use consistent button styling.
+- Build 061 bootstrap/Matrix Doctor validation and Build 060 report detail fixes remain included.

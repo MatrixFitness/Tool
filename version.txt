@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build062
+Edition=Production Baseline
+Release=Fleet Service Test ZeroTier LTE and Compact Header Fix
+Build=062
+BuildDate=2026-07-19
+BuildID=20260719-062
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 062 makes Fleet status independent on every router, executes all selected Service Test modules, simplifies operational ZeroTier status, restores LTE radio parsing and advice, and standardizes compact headers and navigation buttons.
