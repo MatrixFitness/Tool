@@ -1,9 +1,0 @@
-Matrix Toolkit Build 064
-
-- Adds a dedicated WiFi Health Check for the currently connected customer WiFi.
-- Shows SSID, BSSID, band, channel, signal, link quality, bitrate, IP, latency, packet loss, internet and Matrix Cloud reachability.
-- Adds a large signal result with practical technician advice.
-- Adds a mobile-friendly WiFi RSSI reference overview from excellent to unusable.
-- Separates the quick WiFi Health Check from the full multi-location WiFi Survey.
-- Adds both WiFi options to Service Test and restores an easy-to-find Toolkit menu entry.
-- Keeps all Build 063 signal-reference, LTE and System Information fixes.
