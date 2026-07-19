@@ -1,8 +1,0 @@
-Matrix Toolkit Build 063
-
-- Adds a mobile-friendly Signal Reference Guide for WiFi RSSI and LTE RSSI, RSRP, RSRQ and SINR.
-- Adds visible LTE reference cards and practical technician guidance to LTE Health.
-- Restores System Information mobile data using the LTE cache first and safe gsmctl/network fallbacks.
-- Filters modem error messages so they are never displayed as field values.
-- Adds operator, network type, registration, mobile IP, RSSI, RSRP, RSRQ and SINR to System Information.
-- Keeps all Build 062 Fleet, Service Test, ZeroTier, LTE parsing and compact-header fixes.
