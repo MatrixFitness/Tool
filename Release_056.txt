@@ -1,8 +1,0 @@
-Matrix Toolkit Build 056
-WiFi Manager Information and Branding Fix
-
-- More useful 2.4 GHz and 5 GHz status information.
-- Clearer Quick Actions and restore wording.
-- Standard Matrix Toolkit layout retained.
-- Original central Matrix Fitness logo retained for reports.
-- Includes all Build 055 and earlier fixes.
