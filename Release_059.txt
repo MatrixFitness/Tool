@@ -1,8 +1,0 @@
-Matrix Toolkit Build 059
-
-- Unified standard Matrix Toolkit layout for ZeroTier Manager, GitHub Update Log, Matrix Doctor, Router Information and System Information.
-- Improved Router Information detection for model, firmware, WAN, LAN, DNS, WiFi, LTE/mobile and ZeroTier fields.
-- Improved System Information for uptime, load, memory, storage, temperature, network and mobile status.
-- Empty values now display Not available instead of blank fields.
-- The user-supplied MATRIX wordmark is installed as the single official logo on both port 8080 and port 8081.
-- All Build 058 report, password, survey, WiFi Manager and print-layout fixes are retained.
