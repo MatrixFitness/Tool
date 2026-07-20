@@ -1,6 +1,0 @@
-Matrix Toolkit Build 065
-
-- Moves Quick Actions to the top of the WiFi Manager page.
-- Makes Enable Both Radios, Disable Both Radios, Configure Both Radios and Restore Matrix Default WiFi immediately available on mobile.
-- Keeps the individual Radio1 (2.4 GHz) and Radio2 (5 GHz) status and controls below Quick Actions.
-- Keeps all Build 064 WiFi Health Check and mobile signal overview improvements.
