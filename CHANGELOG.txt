@@ -1,0 +1,14 @@
+Matrix Toolkit Build 067
+
+- Displays the four WiFi Manager Quick Actions as compact equal-size tiles in one horizontal row.
+- Mobile layout keeps all four Quick Actions side by side instead of stacking them full width.
+- Adds clear action icons above the button labels.
+- Reduces vertical space so Radio 1 information appears sooner on mobile screens.
+- Keeps all Build 066 functionality, including the customer WiFi connect button when no WiFi Health data is available.
+
+Matrix Toolkit Build 066
+
+- Adds a direct Verbinden met klant-WiFi button to WiFi Health Check when the result is Geen data.
+- The button opens the existing customer WiFi connection page immediately.
+- Keeps Opnieuw meten and Volledige WiFi Survey available below it.
+- Keeps all Build 065 Quick Actions, WiFi Manager, Health Check and previous toolkit functionality.

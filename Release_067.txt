@@ -1,0 +1,4 @@
+Matrix Toolkit Production Baseline Build 067
+
+WiFi Manager Quick Actions compact mobile layout.
+All Build 066 functionality retained.
