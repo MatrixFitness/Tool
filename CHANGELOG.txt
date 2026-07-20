@@ -1,6 +1,0 @@
-Matrix Toolkit Build 066
-
-- Adds a direct Verbinden met klant-WiFi button to WiFi Health Check when the result is Geen data.
-- The button opens the existing customer WiFi connection page immediately.
-- Keeps Opnieuw meten and Volledige WiFi Survey available below it.
-- Keeps all Build 065 Quick Actions, WiFi Manager, Health Check and previous toolkit functionality.
