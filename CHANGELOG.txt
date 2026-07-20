@@ -1,0 +1,10 @@
+Matrix Toolkit Build 069
+
+- Retains all Build 068 functionality.
+- Router hostname now uses UCI, kernel hostname and hostname command fallbacks.
+- DNS list is de-duplicated per address.
+- LTE Operator and Network Type prefer /tmp/matrix_lte_info.cache.
+- Signal shows available RSSI, RSRP, RSRQ and SINR values.
+- gsmctl error text is filtered and displayed as Not available instead.
+- ZeroTier Node ID falls back to identity.public when zerotier-cli info is unavailable.
+- Router Information copies for Toolkit, Admin and web are synchronized.

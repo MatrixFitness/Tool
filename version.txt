@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build069
+Edition=Production Baseline
+Release=Reliable Router Information
+Build=069
+BuildDate=2026-07-20
+BuildID=20260720-069
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 069 retains Build 068 and repairs Router Information: reliable hostname fallback, unique DNS values, LTE cache data without gsmctl error text, formatted radio metrics, and ZeroTier Node ID fallback.
