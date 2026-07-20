@@ -1,0 +1,10 @@
+Matrix Toolkit Build 068
+
+- Based directly on stable Build 066.
+- Quick Actions are four compact tiles in one row, including on mobile.
+- WiFi actions immediately show that the request was received.
+- Live action progress is refreshed every second while WiFi reload runs.
+- Status polling survives temporary web/WiFi interruptions for up to 120 seconds.
+- Disable Both Radios warns that local WiFi access may disconnect.
+- A transient non-zero wifi reload result no longer discards the committed WiFi configuration.
+- All Build 066 functionality is retained.

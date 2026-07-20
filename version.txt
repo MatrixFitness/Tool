@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build068
+Edition=Production Baseline
+Release=Reliable WiFi Quick Actions
+Build=068
+BuildDate=2026-07-20
+BuildID=20260720-068
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 068 retains Build 066 and adds compact four-column Quick Actions, live one-second WiFi reload progress, resilient 120-second reconnect polling and clearer warnings when disabling both radios.
