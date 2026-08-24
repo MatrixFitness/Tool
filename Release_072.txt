@@ -1,0 +1,28 @@
+MATRIX TOOLKIT BUILD 072
+Date: 2026-08-24
+
+FIX
+- Build071 installed successfully but the active router WiFi configuration was not changed.
+- Cause: Matrix Cloud Update uses the transactional matrix-recovery path, which did not execute post_update.sh.
+
+BUILD072 CHANGE
+- matrix-recovery now explicitly runs /usr/local/bin/matrix-network-standard during every real version update.
+- The update fails instead of reporting success if the standard network policy cannot be applied.
+- The applied settings are verified before the update continues.
+
+STANDARD NETWORK POLICY
+- 2.4 GHz AP: enabled, SSID egym
+- 5 GHz AP: enabled
+  JNLMatrix -> JNLMatrix_5G
+  JBEMatrix -> JBEMatrix_5G
+  JDEMatrix -> JDEMatrix_5G
+- Mobile SIM1: metric 1, primary Internet
+- Ethernet WAN: metric 10, secondary/fallback
+- Old WiFi STA/client profiles: disabled
+
+VERIFY AFTER UPDATE
+uci get wireless.default_radio0.ssid
+uci get wireless.default_radio1.ssid
+uci get network.mob1s1a1.metric
+uci get network.wan.metric
+cat /tmp/matrix_network_standard.result
