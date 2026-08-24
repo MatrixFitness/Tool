@@ -1,2 +1,0 @@
-Build 069 - Reliable Router Information
-Fixes missing or incorrect Router Information values while retaining Build 068.
