@@ -1,0 +1,13 @@
+Product=Matrix Toolkit
+Version=Build074
+Edition=Production Baseline
+Release=Persistent Network Standard Service
+Build=074
+BuildDate=2026-08-24
+BuildID=20260824-074
+Status=Stable
+GitHub=https://github.com/MatrixFitness/Tool
+Company=Matrix Fitness
+Author=Rob Bosman
+Email=rob.bosman@matrixfitness.nl
+Changes=Build 074 installs a persistent boot-time network-standard service and also applies the policy immediately after all Toolkit files are installed. 2.4 GHz is forced to egym, 5 GHz to JNLMatrix_5G/JBEMatrix_5G/JDEMatrix_5G, Mobile SIM1 to metric 1 and Ethernet WAN to metric 10. Transactional recovery verifies the policy again before success.

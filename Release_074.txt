@@ -1,0 +1,16 @@
+BUILD 074 - PERSISTENT NETWORK STANDARD
+Date: 2026-08-24
+
+Purpose:
+Make the proven Matrix network-standard policy reliable on JNL, JBE and JDE without requiring a manual command after an update.
+
+Changes:
+- Installs and enables /etc/init.d/matrix_network_standard as a one-shot boot service.
+- Runs matrix-network-standard immediately after the complete Toolkit payload and CLI files are installed.
+- Keeps the later transactional verification as a second safety check.
+- 2.4 GHz AP is forced enabled with SSID egym.
+- 5 GHz AP is forced enabled as JNLMatrix_5G, JBEMatrix_5G or JDEMatrix_5G based on hostname.
+- Mobile SIM1 remains primary with metric 1.
+- Ethernet WAN remains enabled as fallback with metric 10.
+- Old WiFi STA/client profiles remain disabled.
+- The policy is re-applied after router reboot, including after firmware upgrades.
