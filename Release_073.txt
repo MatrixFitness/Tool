@@ -1,0 +1,19 @@
+BUILD 073 - Mandatory Network Standard Verification
+Date: 2026-08-24
+
+Purpose:
+Build072 contained the correct matrix-network-standard command, but on the test JNL router the cloud update completed without applying the active UCI settings automatically. Running matrix-network-standard manually worked correctly.
+
+Build073 therefore enforces the policy twice during a real cloud update:
+1. matrix-recovery runs the network standard from the freshly staged package.
+2. bootstrap runs it again after transactional recovery and verifies the live UCI values.
+
+Required result:
+- 2.4 GHz AP enabled, SSID: egym
+- 5 GHz AP enabled, SSID based on router hostname:
+  JNLMatrix_5G / JBEMatrix_5G / JDEMatrix_5G
+- Mobile SIM1 metric: 1 (primary)
+- Ethernet WAN metric: 10 (fallback)
+- Old WiFi STA/client profiles disabled
+
+The update returns an error instead of SUCCESS if the required values are not active.
