@@ -1,0 +1,15 @@
+BUILD 075 - MATRIX BUILDER SSH READY
+Date: 2026-08-28
+
+Purpose:
+Allow authorized Matrix Release Builder PCs to verify and manage Matrix routers using key-based SSH without storing router passwords.
+
+Changes:
+- Preserves existing Dropbear authorized_keys entries.
+- Adds the Matrix-Service-Suite-Builder ED25519 public key only when missing.
+- Enforces /etc root:root 755 required by Dropbear public-key validation.
+- Enforces /etc/dropbear root:root 700.
+- Enforces /etc/dropbear/authorized_keys root:root 600.
+- New/manual installs receive SSH Ready through install.sh.
+- Existing routers receive SSH Ready through normal matrix-update -> bootstrap -> matrix-recovery.
+- Private SSH key remains only on the authorized Windows Builder PC.
