@@ -1,0 +1,16 @@
+BUILD 077 - SSH READY DOCTOR & SELF-HEAL
+Date: 2026-08-28
+
+Purpose:
+Continuously verify the Matrix Builder SSH Ready policy and safely repair drift without replacing existing authorized SSH keys.
+
+Changes:
+- matrix-doctor validates /etc root:root 755.
+- matrix-doctor validates /etc/dropbear root:root 700.
+- matrix-doctor validates authorized_keys root:root 600.
+- matrix-doctor validates the Matrix-Service-Suite-Builder public key.
+- matrix-doctor validates that Dropbear is running.
+- matrix-doctor-check performs the same SSH Ready checks.
+- matrix-self-heal restores required ownership/modes and only adds the Matrix public key when missing.
+- Existing authorized_keys entries are preserved.
+- Private SSH key remains only on the authorized Windows Builder PC.

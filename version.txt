@@ -1,13 +1,13 @@
 Product=Matrix Toolkit
-Version=Build076
+Version=Build077
 Edition=Production Baseline
 Release=SSH Ready Doctor & Self-Heal
-Build=076
+Build=077
 BuildDate=2026-08-28
-BuildID=20260828-076
+BuildID=20260828-077
 Status=Stable
 GitHub=https://github.com/MatrixFitness/Tool
 Company=Matrix Fitness
 Author=Rob Bosman
 Email=rob.bosman@matrixfitness.nl
-Changes=Build 076 adds Matrix Doctor SSH Ready validation and safe Self-Heal repair while preserving existing authorized SSH keys.
+Changes=Build 077 adds Matrix Doctor SSH Ready validation and safe Self-Heal repair while preserving existing authorized SSH keys.
