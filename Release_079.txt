@@ -1,0 +1,11 @@
+BUILD 079 - EXACT SSH DOCTOR REPAIR GATE
+Date: 2026-08-29
+
+Purpose:
+Prevent unnecessary SSH Self-Heal runs by requiring a literal FAIL on one of the five managed SSH Ready checks.
+
+Changes:
+- Only five explicit SSH Ready diagnostic lines can trigger repair.
+- Doctor logs the exact triggering FAIL line before repair.
+- Post-repair verification uses the same five exact checks.
+- Existing authorized_keys entries remain preserved.
