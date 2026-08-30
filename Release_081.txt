@@ -1,0 +1,13 @@
+BUILD 081 - BUILDER ADMIN SSO
+Date: 2026-08-30
+
+Purpose:
+Allow an authorized Matrix Service Suite Builder PC to open Router Admin/Fleet without typing the Admin password.
+
+Security:
+- Requires the existing Matrix Builder SSH private key on the authorized PC.
+- Admin password is never read, stored, transmitted or placed in a URL.
+- Builder creates a random 256-bit one-time token in /tmp through authenticated SSH.
+- Token expires after 90 seconds and is deleted on first successful use.
+- Normal browser access to Admin remains protected by username/password.
+- If Builder SSH-key access is unavailable, Web Tools opens the normal Admin login page.
