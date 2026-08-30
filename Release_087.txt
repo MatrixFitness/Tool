@@ -1,0 +1,12 @@
+BUILD 087 - WIFI SERVICE CONTROLS UI
+Date: 2026-08-30
+
+Purpose:
+Expose the field-safe WiFi controls directly in WiFi Manager.
+
+UI:
+- EGYM 2.4 GHz: explicit EGYM AAN / EGYM UIT.
+- Matrix service 5 GHz: SERVICE WIFI AAN.
+- Matrix service SSID: SSID VERBERGEN / SSID ZICHTBAAR.
+- Disable Both Radios removed from normal WiFi Manager UI.
+- Restore keeps EGYM on and service 5 GHz on + hidden.
