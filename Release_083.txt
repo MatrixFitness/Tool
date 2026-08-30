@@ -1,0 +1,12 @@
+BUILD 083 - BUILDER ADMIN SSO CGI INTEROP FIX
+Date: 2026-08-30
+
+Purpose:
+Fix the one-time Builder Admin/Fleet login on Teltonika when Admin CGI runs with separated privileges.
+
+Security:
+- Matrix Builder SSH-key is still mandatory.
+- Random token remains 256-bit, single-use and valid for at most 90 seconds.
+- Token directory cannot be listed (mode 733); CGI can only access a token when its exact random name is known.
+- Token file is readable for CGI (644) and deleted after successful login.
+- Admin password is never read, stored or transmitted by the Builder.

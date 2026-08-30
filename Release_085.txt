@@ -1,0 +1,11 @@
+BUILD 085 - WIFI SERVICE SAFE
+Date: 2026-08-30
+
+Purpose:
+Make field WiFi testing safe: EGYM 2.4 GHz can be switched independently while Matrix service 5 GHz remains available.
+
+Behavior:
+- EGYM 2.4 GHz: independent ON/OFF.
+- Matrix service 5 GHz: independent ON/OFF with explicit disconnect warning.
+- Matrix service 5 GHz: hidden/visible control; hidden by default.
+- Restore defaults: 2.4 GHz egym ON; 5 GHz <hostname>_5G ON and hidden.
