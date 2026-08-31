@@ -1,13 +1,13 @@
 Product=Matrix Toolkit
-Version=Build091
+Version=Build092
 Edition=Production Baseline
 Release=WiFi Service State UI
-Build=091
+Build=092
 BuildDate=2026-08-31
-BuildID=20260831-091
+BuildID=20260831-092
 Status=Stable
 GitHub=https://github.com/MatrixFitness/Tool
 Company=Matrix Fitness
 Author=Rob Bosman
 Email=rob.bosman@matrixfitness.nl
-Changes=Build 091 makes the EGYM and Matrix Service WiFi controls state-aware so ON/OFF and VISIBLE/HIDDEN are immediately visible.
+Changes=Build 092 makes the EGYM and Matrix Service WiFi controls state-aware so ON/OFF and VISIBLE/HIDDEN are immediately visible.
