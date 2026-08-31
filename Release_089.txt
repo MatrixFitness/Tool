@@ -1,0 +1,11 @@
+BUILD 089 - TOOLKIT 8080 WIFI SERVICE CONTROLS
+Date: 2026-08-31
+
+Purpose:
+Apply the service-safe controls to the actual technician WiFi Manager on Toolkit port 8080.
+
+Controls:
+- EGYM 2.4 GHz: EGYM AAN / EGYM UIT.
+- Matrix service 5 GHz: SERVICE WIFI AAN; no normal disable button.
+- Matrix service SSID: SSID VERBERGEN / SSID ZICHTBAAR.
+- Restore: egym ON + <hostname>_5G ON and hidden.
