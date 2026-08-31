@@ -1,0 +1,10 @@
+BUILD 090 - WIFI MANAGER CGI SHEBANG FIX
+Date: 2026-08-31
+
+Purpose:
+Restore executable CGI format for the WiFi Manager while retaining the service-safe dashboard.
+
+Safety:
+- Every generated WiFi CGI shell script begins exactly with #!/bin/sh.
+- No HTML, BOM, whitespace or comment may precede the shebang.
+- Dashboard marker is written after the shebang.
