@@ -1,0 +1,10 @@
+BUILD 091 - WIFI SERVICE STATE UI
+Date: 2026-08-31
+
+Purpose:
+Show the actual EGYM and service SSID state directly in the WiFi Service Controls.
+
+UI:
+- EGYM shows STATUS AAN/UIT.
+- 5 GHz shows RADIO AAN/UIT and SSID ZICHTBAAR/VERBORGEN.
+- The current state button is visually marked.
