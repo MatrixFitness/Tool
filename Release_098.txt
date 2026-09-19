@@ -1,0 +1,11 @@
+BUILD 098 - UPDATE VALIDATION FIX
+Date: 2026-09-19
+
+Purpose:
+Remove a false update failure after a successful transactional install.
+
+Changes:
+- Bootstrap validates the installed Matrix Doctor against the exact Doctor file from the downloaded package.
+- The independent MATRIX_DOCTOR_BUILD component marker is no longer compared with the Router release number.
+- Matrix Builder SSH Ready is executed exactly once during transactional recovery.
+- Existing Doctor, ZeroTier, WiFi, network-standard and SSH functionality is preserved.
