@@ -99,9 +99,16 @@ log "[8/9] Validating matching installed tools..."
 INSTALLED="$(grep '^Build=' /usr/local/matrix/version.txt 2>/dev/null | cut -d= -f2-)"
 [ "$INSTALLED" = "$BUILD_PAD" ] || fail "Installed Build mismatch: expected $BUILD_PAD, found ${INSTALLED:-missing}"
 
-DOCTOR_BUILD="$(sed -n 's/^MATRIX_DOCTOR_BUILD=//p' /usr/local/bin/matrix-doctor 2>/dev/null | head -1)"
-[ -z "$DOCTOR_BUILD" ] || [ "$DOCTOR_BUILD" = "$BUILD_PAD" ] || fail "Matrix Doctor is from Build $DOCTOR_BUILD, expected $BUILD_PAD"
 
+# MATRIX_BOOTSTRAP_DOCTOR_PACKAGE_MATCH_BEGIN
+# Matrix Doctor has its own component marker and that marker is independent of the Router release.
+# Validate the exact installed Doctor against the exact package payload instead.
+EXPECTED_DOCTOR="/tmp/MatrixInstall/bin/matrix-doctor"
+INSTALLED_DOCTOR="/usr/local/bin/matrix-doctor"
+[ -f "$EXPECTED_DOCTOR" ] || fail "Matrix Doctor missing from Build $BUILD_PAD package"
+[ -f "$INSTALLED_DOCTOR" ] || fail "Installed Matrix Doctor is missing"
+cmp "$EXPECTED_DOCTOR" "$INSTALLED_DOCTOR" >/dev/null 2>&1 || fail "Installed Matrix Doctor does not match Build $BUILD_PAD package"
+# MATRIX_BOOTSTRAP_DOCTOR_PACKAGE_MATCH_END
 log "[9/9] Running Matrix Doctor..."
 /usr/local/bin/matrix-doctor | tee -a "$LOG"
 DOCTOR_RC=${PIPESTATUS:-0}
