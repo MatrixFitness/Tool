@@ -1,13 +1,13 @@
 Product=Matrix Toolkit
-Version=Build099
+Version=Build100
 Edition=Production Baseline
 Release=Update Validation Fix
-Build=099
+Build=100
 BuildDate=2026-09-20
-BuildID=20260920-099
+BuildID=20260920-100
 Status=Stable
 GitHub=https://github.com/MatrixFitness/Tool
 Company=Matrix Fitness
 Author=Rob Bosman
 Email=rob.bosman@matrixfitness.nl
-Changes=Build 099 fixes final bootstrap validation by matching the installed Matrix Doctor against the exact package payload and prevents duplicate SSH Ready execution while preserving all existing Router functions.
+Changes=Build 100 fixes final bootstrap validation by matching the installed Matrix Doctor against the exact package payload and prevents duplicate SSH Ready execution while preserving all existing Router functions.
