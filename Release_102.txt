@@ -1,0 +1,13 @@
+BUILD 102 - CONNECTION MONITOR PDF RECOVERY
+Date: 2026-09-21
+
+Purpose:
+Reliably create and recover readable 24-hour connection reports.
+
+Changes:
+- PDF output is written incrementally for BusyBox compatibility.
+- Measurements are removed only after PDF structure validation succeeds.
+- Failed PDF generation preserves the complete measurement session and shows an error status.
+- Previous completed 24-hour data can be reconstructed from the rolling log.
+- PDF filenames contain router name plus start date and time.
+- Single ping misses are warnings; confirmed outage requires both pings and DNS to fail together.
