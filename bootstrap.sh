@@ -61,7 +61,8 @@ log "[5/9] Extracting and validating package..."
 rm -rf /tmp/MatrixInstall
 tar -xzf "$FILE" -C /tmp || fail "Extraction failed"
 [ -d /tmp/MatrixInstall ] || fail "MatrixInstall missing"
-SOURCE_BUILD="$(grep '^Build=' /tmp/MatrixInstall/version.txt 2>/dev/null | cut -d= -f2-)"
+# MATRIX_BUILD_NUMBER_NORMALIZATION_BEGIN
+SOURCE_BUILD="$(grep '^Build=' /tmp/MatrixInstall/version.txt 2>/dev/null | cut -d= -f2- | tr -d '\r\n ' | head -1)"
 [ "$SOURCE_BUILD" = "$BUILD_PAD" ] || fail "Package build mismatch: expected $BUILD_PAD, found ${SOURCE_BUILD:-missing}"
 [ -x /tmp/MatrixInstall/bin/matrix-recovery ] || fail "Transactional recovery missing"
 
@@ -96,7 +97,7 @@ WAN_METRIC="$(uci -q get network.wan.metric)"
 log "Network standard verified: 2.4=$SSID24 5G=$SSID5 Mobile=$MOBILE_METRIC WAN=$WAN_METRIC"
 
 log "[8/9] Validating matching installed tools..."
-INSTALLED="$(grep '^Build=' /usr/local/matrix/version.txt 2>/dev/null | cut -d= -f2-)"
+INSTALLED="$(grep '^Build=' /usr/local/matrix/version.txt 2>/dev/null | cut -d= -f2- | tr -d '\r\n ' | head -1)"
 [ "$INSTALLED" = "$BUILD_PAD" ] || fail "Installed Build mismatch: expected $BUILD_PAD, found ${INSTALLED:-missing}"
 
 
