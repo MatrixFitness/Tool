@@ -1,0 +1,12 @@
+BUILD 103 - MULTI-DURATION CONNECTION REPORTS
+Date: 2026-09-22
+
+Purpose:
+Provide reliable selectable connection tests with an automatic readable PDF after completion.
+
+Changes:
+- Selectable 5-minute, 1-hour and 24-hour tests.
+- Every completed test automatically creates a validated PDF.
+- Compact session rows prevent BusyBox memory problems during 24-hour PDF generation.
+- PDF includes router, duration, times, availability, warnings, confirmed outages and minute details.
+- Measurement data is retained when PDF validation fails.
