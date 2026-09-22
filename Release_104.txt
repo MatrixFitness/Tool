@@ -1,0 +1,11 @@
+BUILD 104 - SAFE MONITOR PROGRESS REFRESH
+Date: 2026-09-22
+
+Purpose:
+Show reliable live progress without restarting the active connection test.
+
+Changes:
+- Start actions redirect immediately to a clean URL.
+- The clean status page refreshes automatically every 10 seconds.
+- Duration buttons are disabled while a test is active.
+- Refreshing the browser can no longer reset the test counter.
