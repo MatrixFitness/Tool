@@ -1,0 +1,11 @@
+BUILD 110 - ROOT WORKER REPORT STORAGE
+Date: 2026-09-24
+
+Purpose:
+Repair persistent PDF report storage after all transactional cleanup stages.
+
+Changes:
+- Existing root update worker creates and repairs the report directory.
+- Root cron repeats the check every minute.
+- The active generator is visibly identified as Build110.
+- Existing preserved measurements remain recoverable.
