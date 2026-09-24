@@ -1,0 +1,11 @@
+BUILD 106 - BUSYBOX NATIVE CONNECTION PDF
+Date: 2026-09-24
+
+Purpose:
+Generate readable connection reports reliably on the Teltonika BusyBox runtime.
+
+Changes:
+- Replaces the large incompatible awk PDF program with small POSIX shell steps.
+- Creates a graphical A4 summary with router, period, availability and deviations.
+- Keeps one-click recovery for preserved measurements.
+- Deletes session data only after a valid PDF is stored.
