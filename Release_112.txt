@@ -1,0 +1,11 @@
+BUILD 112 - JDK ENGLISH CONNECTION REPORTS
+Date: 2026-09-24
+
+Purpose:
+Always provide JDKMatrix connection reports in clear English without changing the other routers.
+
+Changes:
+- Detects JDKMatrix automatically from the router hostname.
+- Creates the complete PDF summary and conclusion in English.
+- Uses an English report filename and enables it in the download list.
+- Keeps JNLMatrix, JBEMatrix and other routers in Dutch.
