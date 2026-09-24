@@ -1,0 +1,11 @@
+BUILD 111 - EXPLAINED CONNECTION PATH REPORTS
+Date: 2026-09-24
+
+Purpose:
+Make every connection PDF immediately understandable for technicians and management.
+
+Changes:
+- Records the active internet path during every minute measurement.
+- Identifies Ethernet-WAN, 5G/LTE or customer Wi-Fi in the PDF.
+- Adds a plain-language explanation and conclusion to the first page.
+- Separates good measurements, warnings and confirmed outages consistently.
