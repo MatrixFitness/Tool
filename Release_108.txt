@@ -1,0 +1,11 @@
+BUILD 108 - CONNECTION REPORT STORAGE PERMISSION
+Date: 2026-09-24
+
+Purpose:
+Allow the restricted Toolkit web process to store persistent PDF reports without root access.
+
+Changes:
+- Root installation creates /etc/matrix-connection-reports.
+- Sticky write permissions allow report creation while preventing cross-file deletion.
+- The active generator is visibly identified as Build108.
+- Existing preserved measurements remain recoverable.
