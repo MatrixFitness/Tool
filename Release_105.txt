@@ -1,0 +1,11 @@
+BUILD 105 - CONNECTION PDF VALIDATION RECOVERY
+Date: 2026-09-24
+
+Purpose:
+Reliably validate and recover connection-monitor PDF reports on Teltonika BusyBox.
+
+Changes:
+- PDF validation uses BusyBox-safe size, header and EOF checks.
+- Failed PDF output is retained as a diagnostic file.
+- Preserved measurements can be converted again with one recovery button.
+- Measurement data is removed only after successful PDF validation.
