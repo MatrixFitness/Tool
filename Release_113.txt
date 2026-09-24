@@ -1,0 +1,11 @@
+BUILD 113 - CONNECTION REPORT FINAL CONCLUSION
+Date: 2026-09-24
+
+Purpose:
+Give every connection report an immediate and unambiguous final assessment.
+
+Changes:
+- Adds GOOD, ATTENTION, UNSTABLE, VERY POOR and CRITICAL classifications.
+- Classifies availability below 50 percent, including 40 percent, as CRITICAL.
+- Recommends immediate investigation for a CRITICAL result.
+- Keeps JDKMatrix reports in English and other router reports in Dutch.
