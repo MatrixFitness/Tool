@@ -1,0 +1,11 @@
+BUILD 109 - POST-CLEANUP REPORT STORAGE
+Date: 2026-09-24
+
+Purpose:
+Keep the persistent PDF report directory available after installation cleanup.
+
+Changes:
+- Creates the report directory after matrix_safe_cleanup.
+- Applies sticky write permissions after cleanup has completed.
+- The active generator is visibly identified as Build109.
+- Existing preserved measurements remain recoverable.
