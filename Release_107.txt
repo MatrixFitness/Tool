@@ -1,0 +1,11 @@
+BUILD 107 - VISIBLE PDF RECOVERY
+Date: 2026-09-24
+
+Purpose:
+Make connection-report recovery observable and reliable.
+
+Changes:
+- Shows whether the Build107 PDF generator is active.
+- Shows a visible busy state before recovery starts.
+- Preserves the exact recovery exit code and output on failure.
+- Keeps saved measurements until a valid PDF is stored.
