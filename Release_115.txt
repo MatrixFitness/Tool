@@ -1,0 +1,12 @@
+BUILD 115 - MULTILINGUAL CONNECTION REPORT EMAIL UI
+Date: 2026-09-25
+
+Purpose:
+Provide a clear email workflow and create the complete draft in the selected language.
+
+Changes:
+- Redesigns the form into clear data, report-selection and create-draft steps.
+- Correctly aligns labels, fields, comments and report rows on desktop and mobile.
+- Adds Dutch, English, German and French email languages.
+- Translates greeting, subject, explanation, WAN disclaimer, conclusion and closing.
+- Keeps one or multiple selected PDFs attached to the unsent EML draft.
