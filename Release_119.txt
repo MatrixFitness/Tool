@@ -1,0 +1,11 @@
+BUILD 119 - OPENSSL BASE64 EMAIL ATTACHMENTS
+Date: 2026-09-25
+
+Purpose:
+Create complete PDF attachments on Teltonika firmware without the optional base64 command.
+
+Changes:
+- Uses the normal base64 command when it is available.
+- Automatically uses OpenSSL base64 when the base64 command is absent.
+- Keeps all Build118 PDF, MIME count and EML size validations.
+- Blocks the download only when neither supported encoder is available.
