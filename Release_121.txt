@@ -1,0 +1,12 @@
+BUILD 121 - SELECTABLE EXTENDED DIAGNOSTICS REPORTS
+Date: 2026-09-25
+
+Purpose:
+Keep the normal connectivity report simple while optionally adding a separate technical diagnostics PDF.
+
+Changes:
+- Adds connectivity-only and extended-diagnostics choices for 5-minute, 1-hour and 24-hour tests.
+- Always keeps availability in the existing connection PDF.
+- Creates a second diagnostics PDF with start/end route, gateway, DNS, Matrix/EGYM HTTPS reachability, ping, WiFi and cellular data.
+- Runs a speed test only when a local supported speed-test utility is already installed.
+- Clearly identifies Matrix/EGYM checks as reachability checks rather than a complete firewall certification.
