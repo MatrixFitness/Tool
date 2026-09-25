@@ -1,0 +1,12 @@
+BUILD 114 - CONNECTION REPORT EMAIL COMPOSER
+Date: 2026-09-25
+
+Purpose:
+Create a ready-to-review email draft with selected connection reports attached.
+
+Changes:
+- Selects one or multiple stored PDF reports.
+- Creates an unsent EML draft with the PDFs included as attachments.
+- Personalizes the greeting from the entered recipient name.
+- Adds customer, recipient, sender and optional note fields.
+- Explains that an active successful WAN route is considered OK but is not a separate physical cable test.
