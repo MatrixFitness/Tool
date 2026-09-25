@@ -1,0 +1,11 @@
+BUILD 117 - CONNECTION FORM NO META REFRESH
+Date: 2026-09-25
+
+Purpose:
+Prevent every browser-driven refresh from clearing partially entered email details.
+
+Changes:
+- Completely removes the HTML meta-refresh instruction.
+- Uses one cancellable JavaScript progress timer only while a test is running.
+- Cancels refresh on keydown, pointer interaction, input, language change or report selection.
+- Keeps all entered email details and selections on screen.
