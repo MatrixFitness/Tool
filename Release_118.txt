@@ -1,0 +1,12 @@
+BUILD 118 - VALIDATED EML PDF ATTACHMENTS
+Date: 2026-09-25
+
+Purpose:
+Prevent empty or incomplete PDF attachments in downloaded email drafts.
+
+Changes:
+- Validates readability, size and the PDF header of every selected report.
+- Builds the complete MIME email in a temporary file before offering the download.
+- Confirms that every selected attachment is present and that the EML is larger than the source PDFs.
+- Blocks incomplete downloads and shows a clear error instead.
+- Displays the source PDF size beside every report.
