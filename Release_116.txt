@@ -1,0 +1,11 @@
+BUILD 116 - CONNECTION EMAIL FORM REFRESH PAUSE
+Date: 2026-09-25
+
+Purpose:
+Keep entered email information and report selections intact while a connection test is running.
+
+Changes:
+- Keeps the ten-second progress refresh active while the email form is untouched.
+- Pauses automatic refresh immediately after typing, changing language or selecting a report.
+- Preserves recipient, email address, customer, sender, note, language and report selections.
+- Shows a clear notice when automatic refresh has been paused.
