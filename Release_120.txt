@@ -1,0 +1,12 @@
+BUILD 120 - RESPONSIVE MULTILINGUAL RESULT EMAIL
+Date: 2026-09-25
+
+Purpose:
+Make connection-report email drafts easy to read and immediately informative on desktop and mobile.
+
+Changes:
+- Uses a responsive HTML body with a 620-pixel maximum width.
+- Prevents awkward Wi-Fi word splitting and scales to phone width.
+- Adds Danish beside Dutch, English, German and French.
+- Calculates weighted combined availability from every selected report.
+- Shows the actual percentage, classification and successful minute count in the email.
