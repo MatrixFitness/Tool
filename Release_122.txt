@@ -1,0 +1,12 @@
+BUILD 122 - PLAIN-LANGUAGE CLUB REPORTS
+Date: 2026-09-27
+
+Purpose:
+Make both connection reports understandable for club owners without technical network knowledge.
+
+Changes:
+- Explains route, modem and router WiFi readability scores in plain language.
+- Clarifies that readable WiFi or modem data is not a quality or signal score.
+- Adds a direct What does this mean for your club conclusion.
+- Adds a second explanation page to the extended diagnostics PDF.
+- Uses English for JDKMatrix and Dutch for the other routers.
