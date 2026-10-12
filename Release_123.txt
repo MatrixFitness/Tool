@@ -1,0 +1,14 @@
+BUILD 123 - REBOOT-RESILIENT CONNECTION MONITORING
+Date: 2026-10-12
+
+Purpose:
+Prevent long connection tests and PDF reports from being lost when a router restarts.
+
+Changes:
+- Stores an atomic persistent checkpoint every five measurements.
+- Automatically resumes an active test after reboot from root cron.
+- Preserves duration, start time, report type, progress, diagnostic start data and restart count.
+- Prevents a new test from overwriting recoverable measurements.
+- Adds explicit resume, pause and discard controls.
+- Deletes persistent data only after the selected PDF reports validate successfully.
+- Reports router restart/recovery count in both PDF types.
