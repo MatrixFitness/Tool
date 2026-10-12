@@ -1,0 +1,12 @@
+BUILD 124 - CUSTOMER ETHERNET WAN-ONLY TESTING
+Date: 2026-10-12
+
+Purpose:
+Test and explain the club customer Ethernet WAN independently from the Matrix 5G connection.
+
+Changes:
+- Binds the customer connectivity measurement to Ethernet WAN and excludes Matrix 5G from the WAN score.
+- Measures WAN link, WAN address, customer gateway, public internet targets and DNS every minute.
+- Explains the most likely problem area in plain language for the club and its IT provider.
+- Provides concrete checks for cabling, DHCP/VLAN, gateway, provider/firewall and DNS problems.
+- Keeps JDKMatrix reports in English and other router reports in Dutch.
